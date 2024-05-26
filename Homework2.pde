@@ -16,7 +16,7 @@ void setup() {
 }
 
 void draw() {
-  background(30, 30, 60, 50); // Night sky background with slight transparency
+  background(30, 30, 60, 50); 
   for (int i = 0; i < numFlowers; i++) {
     flowers[i].move();
     flowers[i].display();
@@ -68,7 +68,7 @@ class Flower {
     }
     popMatrix();
     angle += 0.01;
-    size = map(noise(noiseOffsetX), 0, 1, 50, 100); // Adjust size with noise
+    size = map(noise(noiseOffsetX), 0, 1, 50, 100); 
   }
 }
 

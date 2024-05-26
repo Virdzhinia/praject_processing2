@@ -95,7 +95,7 @@ class Star {
       baseY = random(-height, 0);
       baseX = random(width);
     }
-    x = baseX + map(noise(noiseOffset + 5), 0, 1, -10, 10); // Slight horizontal movement
+    x = baseX + map(noise(noiseOffset + 5), 0, 1, -10, 10); 
   }
 
   void display() {
